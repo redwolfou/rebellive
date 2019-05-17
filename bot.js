@@ -18,7 +18,7 @@ client.on('message', message => {
 } else
   if (message.content.startsWith(adminprefix + 'of')) {
   client.user.setStatus("offline");
-      message.channel.send(`Done`)
+      message.channel.send(`**Done**`)
 } else
 if (message.content.startsWith(adminprefix + 'setava')) {
   client.user.setAvatar(argresult);
